@@ -13,16 +13,21 @@ end
 def pop_with_args(array)
   finarray = []
   2.times do
-    result.unshift(array.pop)
+    finarray.unshift(array.pop)
   end
+  finarray
 end
 
 def using_shift(array)
  array.shift
 end
 
-def shift_with_args
- array.shift(2)
+def shift_with_args(array)
+ finarray = []
+ 2.times do
+   finarray.unshift(array.shift)
+ end
+ finarray
 end
 
 def using_concat(array1,array2)
