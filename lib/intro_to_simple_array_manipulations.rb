@@ -14,16 +14,16 @@ def pop_with_args(array)
   array.pop(2)
 end
 
-def using_shift
-
+def using_shift(array)
+ array.shift
 end
 
-def
-
+def shift_with_args
+ array.shift(2)
 end
 
-def
-
+def using_concat
+ 
 end
 
 def
