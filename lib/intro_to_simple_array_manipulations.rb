@@ -25,7 +25,7 @@ end
 def shift_with_args(array)
  finarray = []
  2.times do
-   finarray.unshift(array.shift)
+   finarray.push(array.shift)
  end
  finarray
 end
