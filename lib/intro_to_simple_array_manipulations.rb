@@ -13,7 +13,8 @@ end
 def pop_with_args(array)
   finarray = []
   2.times do
-    array.pop
+    result.unshift(array.pop)
+  end
 end
 
 def using_shift(array)
